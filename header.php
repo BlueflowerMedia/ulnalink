@@ -26,24 +26,24 @@
 	<header id="masthead" class="site-header">
 		<nav id="site-navigation" class="main-navigation fixed container-navbar">
       <!-- navbar left -->
-			<div class="nav-left">
+			<!-- <div class="nav-left">
         <?php the_custom_logo(); ?>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><?php bloginfo( 'name' ); ?></h3></a>
-      </div>
+      </div> -->
       <!-- navbar middle -->
-      <div class="nav-middle">
+      <!-- <div class="nav-middle">
         <?php
           wp_nav_menu( array(
             'theme_location' => 'menu-1',
             'menu_id'        => 'primary-menu',
           ) );
         ?>
-      </div>
+      </div> -->
       <!-- navbar right -->
-      <div class="nav-right">
+      <!-- <div class="nav-right">
         <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
 				<a href=""><button class="nav-contact" type="button" name="button">Contact Us</button></a>
-      </div>
+      </div> -->
 		</nav>
 	</header>
 
