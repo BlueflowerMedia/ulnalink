@@ -1370,6 +1370,7 @@ nav#site-navigation .nav-middle {
     .menu-item a:hover:after {
       transform: scaleY(0.25) translateY(25px);
       box-shadow: none; }
+<<<<<<< HEAD
 
 #box {
   position: relative;
@@ -1400,3 +1401,5 @@ nav#site-navigation .nav-middle {
   background-color: #18668e; }
   .banner p {
     color: white; }
+=======
+>>>>>>> 2dd90afbb71f71e82b81eb8f59b7c7cff9d6d6f5
