@@ -1,27 +1,61 @@
 /*
-Error: Invalid CSS after "...pages/homepage"": expected "{", was ";"
-        on line 39 of sass/style.scss
+Error: Invalid CSS after "...d7b70e94a801486": expected "{", was "}"
+        on line 78 of sass/pages/_homepage.scss
+        from line 36 of sass/style.scss
 
-34: @import "modules/navbar";
-35: @import "modules/footer";
-36: <<<<<<< HEAD
-37: @import "pages/homepage"
-38: =======
-39: @import "pages/homepage";
-40: >>>>>>> 5e2fcc972dbf3f1e0af86f9cad7b70e94a801486
+73: 
+74: p{
+75:   color:white;
+76: }
+77: >>>>>>> 5e2fcc972dbf3f1e0af86f9cad7b70e94a801486
+78: }
 
 Backtrace:
-sass/style.scss:39
+sass/pages/_homepage.scss:78
+sass/style.scss:36
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:677:in `block'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:321:in `to_tree'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:20:in `render'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:290:in `render'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
@@ -41,4 +75,4 @@ C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/inter
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...pages/homepage\"\": expected \"{\", was \";\"\A         on line 39 of sass/style.scss\A \A 34: @import \"modules/navbar\";\A 35: @import \"modules/footer\";\A 36: <<<<<<< HEAD\A 37: @import \"pages/homepage\"\A 38: =======\A 39: @import \"pages/homepage\";\A 40: >>>>>>> 5e2fcc972dbf3f1e0af86f9cad7b70e94a801486"; }
+  content: "Error: Invalid CSS after \"...d7b70e94a801486\": expected \"{\", was \"}\"\A         on line 78 of sass/pages/_homepage.scss\A         from line 36 of sass/style.scss\A \A 73: \A 74: p{\A 75:   color:white;\A 76: }\A 77: >>>>>>> 5e2fcc972dbf3f1e0af86f9cad7b70e94a801486\A 78: }"; }
