@@ -39,7 +39,7 @@
       <p id="box">1</p>
     </div>
     <div id="1" class="list-right flex">
-      <p>Search around the world with advanced filters.</p>
+      <p id="top" >Search around the world with advanced filters.</p>
       <p id="bottom">This is a uesful tool to work with, it will help assist finding better offers.</p>
     </div>
   </div>
@@ -55,7 +55,7 @@
 
 
     <div id="2" class="list-right flex">
-      <p>Auto share careers through social media.<p>
+      <p id="top">Auto share careers through social media.<p>
       <p id="bottom">Selected your profrssion? Great, create connection on this niche website.</p>
     </div>
   </div>
@@ -72,7 +72,7 @@
       <p id="box">3</p>
     </div>
     <div  id="3" class="list-right flex">
-      <p>Free!</p>
+      <p id="top">Free!</p>
       <p id="bottom">This site will offer free service to those who need to find work.</p>
     </div>
   </div>
@@ -116,5 +116,7 @@
     </div>
 
 </section>
+
+
 
 <?php get_footer(); ?>
