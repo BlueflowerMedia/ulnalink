@@ -78,5 +78,43 @@
   </div>
 </section>
 
+<!-- signup section -->
+<section id="section-sign-up">
+  <h1>Sign Up Today!</h1>
+    <div class="container flex-row">
+      <div class="employer flex1">
+        <img id="pic-employer" src="<?php echo get_template_directory_uri(); ?>/images/ulna-employer.png" alt="">
+        <div class="employer-form">
+          <h2>Employer</h2>
+            <?php echo do_shortcode('[contact-form-7 id="11" title="Sign Up Form"]') ?>
+        </div>
+      </div>
+
+      <div class="job-seeker flex1">
+        <img id="pic-job-seeker" src="<?php echo get_template_directory_uri(); ?>/images/ulna-job-seeker.png" alt="">
+      <div class="job-seeker-form">
+        <h2>Job Seeker</h2>
+          <?php echo do_shortcode('[contact-form-7 id="11" title="Sign Up Form"]') ?>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="section-contact-us">
+  <div class="container flex-row">
+    <div class="contact flex1">
+      <h2>Contact Us</h2>
+      <p>We would love to help you with all of your recruitment/hiring questions. You will hear back us within 24 hours.</p>
+      <div class="contact-form">
+          <?php echo do_shortcode('[contact-form-7 id="13" title="Contact Us"]') ?>
+      </div>
+    </div>
+
+    <div class="trees flex1">
+
+    </div>
+
+</section>
 
 <?php get_footer(); ?>
