@@ -1447,8 +1447,20 @@ p {
   background-color: #67973f; }
 
 .banner {
+<<<<<<< HEAD
   background-color: #06668F;
   position: relative; }
 
 .container {
   padding: 0; }
+=======
+  background-color: #06668F; }
+  .banner p {
+    color: white; }
+
+#section-sign-up {
+  background-color: #66953E; }
+
+#section-contact-us {
+  background-color: #EDF5FA; }
+>>>>>>> 66abf911b8d06e1af504e356e85e7715e7262d46
