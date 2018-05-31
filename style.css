@@ -1399,6 +1399,10 @@ nav#site-navigation .nav-middle {
     max-width: auto;
     height: auto; }
 
+.blank-space {
+  background-color: #06668F;
+  height: 150px; }
+
 #box {
   position: relative;
   border-radius: 0px 80px;
@@ -1409,7 +1413,8 @@ nav#site-navigation .nav-middle {
   color: white;
   line-height: 180px;
   text-align: center;
-  font-size: 40px; }
+  font-size: 40px;
+  margin: 0 20px 0 0; }
   #box:after {
     content: "";
     position: absolute;
@@ -1420,10 +1425,30 @@ nav#site-navigation .nav-middle {
     width: 170px;
     height: 170px; }
 
+#box-white {
+  width: 180px;
+  height: 180px;
+  background: transparent;
+  margin: 0; }
+
+p {
+  color: white; }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 540px solid white;
+  border-right: 540px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
 #bottom {
   background-color: #67973f; }
 
 .banner {
-  background-color: #18668e; }
-  .banner p {
-    color: white; }
+  background-color: #06668F;
+  position: relative; }
+
+.container {
+  padding: 0; }
