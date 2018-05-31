@@ -1428,6 +1428,21 @@ nav#site-navigation .nav-middle {
   .banner p {
     color: white; }
 
+#section-description #rcorner1 {
+  border-radius: 500px 500px 0px 0px;
+  background: #397A70;
+  padding: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 50px; }
+  #section-description #rcorner1 p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 24%;
+    padding-right: 24%; }
+
 #section-sign-up {
   background-color: #66953E; }
 
