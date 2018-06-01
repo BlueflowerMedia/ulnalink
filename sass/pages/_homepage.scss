@@ -111,6 +111,28 @@ margin:0 20px 0 0;
   vertical-align: middle;
 }
 
+#section-description{
+#rcorner1 {
+  border-radius: 500px 500px 0px 0px;
+  background: #397A70;
+  padding: 20px;
+  // max-width: 80%;
+  // height: auto;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 50px;
+
+  p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 24%;
+    padding-right: 24%;
+    }
+  }
+}
+
 #section-sign-up{
   background-color: #66953E;
 }

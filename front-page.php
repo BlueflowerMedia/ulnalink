@@ -21,6 +21,8 @@
   </div>
 </section>
 
+<<<<<<< HEAD
+=======
 <!-- Blank space between header and banner-->
 <section class="blank-space">
   <div class="blank-space">
@@ -29,6 +31,7 @@
 </section>
 
 <!--banner-->
+>>>>>>> d9b7d995cc434dbbf8e9fd09fb03d9bc1619d303
 <section class="banner">
 
   <div class="triangle">
@@ -75,6 +78,19 @@
       <p id="top">Free!</p>
       <p id="bottom">This site will offer free service to those who need to find work.</p>
     </div>
+  </div>
+</section>
+
+<!-- description section -->
+
+<section id="section-description">
+  <div class="img-hospital">
+    <img id="img1" src="<?php echo get_template_directory_uri(); ?>/images/ulna-hospital.svg" alt="">
+  </div>
+  <div class="text-description">
+    <h2 id="rcorner1">We specilize in Medical.
+      <p>This  site is  dedicated  to  one  niche  in  particular:<br>Medical  field.  It  can  be  anyone  starting  from  Personal  Support  Worker  (PSW)who  just  finished  their  placement  and  obtained  certeficate,  and  ending  up  withRegistered  Nurses  (RN),  Doctors  e.t.c...  As  a  client,  all  your  job  is  to  follow  job  listing  news  and  information  board  for  monthly  updates,  once  registered.  If  you  are  employeryour  task  is  to  upload  work  order  and  wait  for  responce.</p>
+    </h2>
   </div>
 </section>
 
