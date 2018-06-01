@@ -44,88 +44,56 @@
 
 .blank-space{
   background-color: #06668F;
-height:10vw;
-}
-
-.banner{
-  background-color: #EEF5FB;
+height:150px;
 }
 
 #box {
   position: relative;
-  border-radius: 0 38%;
+  border-radius: 0px 80px;
   background: #67973f;
-  width: 15vw;
-  height: 15vw;
+  width: 180px;
+  height: 180px;
   display:inline-block;
   color: white;
-  line-height: 15vw;
+  line-height: 180px;
   text-align: center;
-  font-size: 3vw;
+  font-size: 40px;
 margin:0 20px 0 0;
   &:after {
     content: "";
-    @include position(absolute, $top: 3%, $left: 3%);
-    border-radius: 0px 38%;
+    @include position(absolute, $top: 5px, $left: 5px);
+    border-radius: 0px 77px;
     border: 2px solid white;
-    width: 14vw;
-    height:14vw;
+    width: 170px;
+    height: 170px;
   }
 }
 
 #box-white{
-  width: 15vw;
-  height: 15vw;
+  width: 180px;
+  height: 180px;
   background: transparent;
   margin:0;
 }
 
-<<<<<<< HEAD
 p{
+  // color: white;
 }
-=======
-
->>>>>>> a92f948464381872c690946c860386b64335796a
 .triangle {
 	width: 0;
 	height: 0;
-	border-bottom: 45vw solid #EEF5FB;
-	border-right: 45vw solid transparent;
+	border-bottom: 540px solid white;
+	border-right: 540px solid transparent;
   position: absolute;
   top: 0;
   left: 0;
 
 }
 
-div.list-left{
-  display: flex;
-}
-@media screen and (max-width: 600px){
-  div.triangle{
-    display:none;
-  }
-  #box-white{
-    display:none;
-  }
-}
 
-
-.container flex-row{
-  color: white;
-}
-
-#top{
-    font-size: 2.2vw;
-    color: white;
-    margin-top: 1vw;
-}
 #bottom{
-  font-size: 1.7vw;
   background-color:#67973f;
-  color: white;
-  background-position: center;
 }
-
 
 .banner{
   background-color: #06668F;
@@ -134,14 +102,11 @@ div.list-left{
 
 .container{
   padding:0;
-<<<<<<< HEAD
-=======
+
   p{
+    // color: white;
   }
->>>>>>> 66abf911b8d06e1af504e356e85e7715e7262d46
-=======
-  vertical-align: middle;
->>>>>>> a92f948464381872c690946c860386b64335796a
+
 }
 
 #section-description{
