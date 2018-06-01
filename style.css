@@ -1209,9 +1209,7 @@ html {
 
 p, a {
   font-size: 1rem;
-  margin-bottom: 1rem;
   font-family: "Roboto Slab", serif;
-  color: rgba(0, 0, 0, 0.9);
   line-height: 1.6rem; }
 
 a {
@@ -1370,7 +1368,17 @@ nav#site-navigation .nav-middle {
 
 .site-footer {
   background-color: #1B648D;
-  text-align: center; }
+  text-align: center;
+  color: white; }
+
+#img-logo {
+  margin-top: 20px;
+  height: 60px;
+  width: 50px; }
+
+div.flex-column {
+  line-height: 90px;
+  font-size: 20px; }
 
 #section-header {
   background-color: #06668F;
@@ -1405,54 +1413,70 @@ nav#site-navigation .nav-middle {
 
 .blank-space {
   background-color: #06668F;
-  height: 150px; }
+  height: 10vw; }
+
+.banner {
+  background-color: #EEF5FB; }
 
 #box {
   position: relative;
-  border-radius: 0px 80px;
+  border-radius: 0 38%;
   background: #67973f;
-  width: 180px;
-  height: 180px;
+  width: 15vw;
+  height: 15vw;
   display: inline-block;
   color: white;
-  line-height: 180px;
+  line-height: 15vw;
   text-align: center;
-  font-size: 40px;
+  font-size: 3vw;
   margin: 0 20px 0 0; }
   #box:after {
     content: "";
     position: absolute;
-    top: 5px;
-    left: 5px;
-    border-radius: 0px 77px;
+    top: 3%;
+    left: 3%;
+    border-radius: 0px 38%;
     border: 2px solid white;
-    width: 170px;
-    height: 170px; }
+    width: 14vw;
+    height: 14vw; }
 
 #box-white {
-  width: 180px;
-  height: 180px;
+  width: 15vw;
+  height: 15vw;
   background: transparent;
   margin: 0; }
 
 .triangle {
   width: 0;
   height: 0;
-  border-bottom: 540px solid white;
-  border-right: 540px solid transparent;
+  border-bottom: 45vw solid #EEF5FB;
+  border-right: 45vw solid transparent;
   position: absolute;
   top: 0;
   left: 0; }
 
+div.list-left {
+  display: flex; }
+
+@media screen and (max-width: 600px) {
+  div.triangle {
+    display: none; }
+
+  #box-white {
+    display: none; } }
 .container flex-row {
   color: white; }
 
 #top {
-  color: white; }
+  font-size: 2.2vw;
+  color: white;
+  margin-top: 1vw; }
 
 #bottom {
+  font-size: 1.7vw;
   background-color: #67973f;
-  color: white; }
+  color: white;
+  background-position: center; }
 
 .banner {
   background-color: #06668F;
@@ -1461,6 +1485,21 @@ nav#site-navigation .nav-middle {
 .container {
   padding: 0;
   vertical-align: middle; }
+
+#section-description #rcorner1 {
+  border-radius: 500px 500px 0px 0px;
+  background: #397A70;
+  padding: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 50px; }
+  #section-description #rcorner1 p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 24%;
+    padding-right: 24%; }
 
 #section-sign-up {
   background-color: #66953E; }

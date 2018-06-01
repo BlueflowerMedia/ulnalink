@@ -21,8 +21,7 @@
   </div>
 </section>
 
-<<<<<<< HEAD
-=======
+
 <!-- Blank space between header and banner-->
 <section class="blank-space">
   <div class="blank-space">
@@ -31,7 +30,7 @@
 </section>
 
 <!--banner-->
->>>>>>> d9b7d995cc434dbbf8e9fd09fb03d9bc1619d303
+
 <section class="banner">
 
   <div class="triangle">
