@@ -44,68 +44,104 @@
 
 .blank-space{
   background-color: #06668F;
-height:150px;
+height:10vw;
+}
+
+.banner{
+  background-color: #EEF5FB;
 }
 
 #box {
   position: relative;
-  border-radius: 0px 80px;
+  border-radius: 0 38%;
   background: #67973f;
-  width: 180px;
-  height: 180px;
+  width: 15vw;
+  height: 15vw;
   display:inline-block;
   color: white;
-  line-height: 180px;
+  line-height: 15vw;
   text-align: center;
-  font-size: 40px;
+  font-size: 3vw;
 margin:0 20px 0 0;
   &:after {
     content: "";
-    @include position(absolute, $top: 5px, $left: 5px);
-    border-radius: 0px 77px;
+    @include position(absolute, $top: 3%, $left: 3%);
+    border-radius: 0px 38%;
     border: 2px solid white;
-    width: 170px;
-    height: 170px;
+    width: 14vw;
+    height:14vw;
   }
 }
 
 #box-white{
-  width: 180px;
-  height: 180px;
+  width: 15vw;
+  height: 15vw;
   background: transparent;
   margin:0;
 }
 
+<<<<<<< HEAD
 p{
 }
+=======
+
+>>>>>>> a92f948464381872c690946c860386b64335796a
 .triangle {
 	width: 0;
 	height: 0;
-	border-bottom: 540px solid white;
-	border-right: 540px solid transparent;
+	border-bottom: 45vw solid #EEF5FB;
+	border-right: 45vw solid transparent;
   position: absolute;
   top: 0;
   left: 0;
 
 }
 
-
-#bottom{
-  background-color:#67973f;
+div.list-left{
+  display: flex;
 }
+@media screen and (max-width: 600px){
+  div.triangle{
+    display:none;
+  }
+  #box-white{
+    display:none;
+  }
+}
+
+
+.container flex-row{
+  color: white;
+}
+
+#top{
+    font-size: 2.2vw;
+    color: white;
+    margin-top: 1vw;
+}
+#bottom{
+  font-size: 1.7vw;
+  background-color:#67973f;
+  color: white;
+  background-position: center;
+}
+
 
 .banner{
   background-color: #06668F;
-<<<<<<< HEAD
   position: relative;
 }
 
 .container{
   padding:0;
+<<<<<<< HEAD
 =======
   p{
   }
 >>>>>>> 66abf911b8d06e1af504e356e85e7715e7262d46
+=======
+  vertical-align: middle;
+>>>>>>> a92f948464381872c690946c860386b64335796a
 }
 
 #section-description{
