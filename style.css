@@ -1,26 +1,26 @@
 /*
-Error: Invalid CSS after "}": expected "}", was ""
-        on line 240 of sass/pages/_homepage.scss
+Error: Invalid CSS after "  }": expected selector or at-rule, was "}"
+        on line 204 of sass/pages/_homepage.scss
         from line 33 of sass/style.scss
 
-235:     p {
-236:       color: #1A648D;
-237:     }
-238:   }
-239: }
+199:     h2 {
+200:       color: white;
+201:       font-size: 30px;
+202:     }
+203:   }
+204: }
+205: 
+206: #section-contact-us{
+207:   background-color: #EDF5FA;
+208: 
+209:   .contact {
 
 Backtrace:
-sass/pages/_homepage.scss:240
+sass/pages/_homepage.scss:204
 sass/style.scss:33
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:679:in `block'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:42:in `parse'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:321:in `to_tree'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
@@ -66,4 +66,4 @@ C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/inter
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 240 of sass/pages/_homepage.scss\A         from line 33 of sass/style.scss\A \A 235:     p {\A 236:       color: #1A648D;\A 237:     }\A 238:   }\A 239: }"; }
+  content: "Error: Invalid CSS after \"  }\": expected selector or at-rule, was \"}\"\A         on line 204 of sass/pages/_homepage.scss\A         from line 33 of sass/style.scss\A \A 199:     h2 {\A 200:       color: white;\A 201:       font-size: 30px;\A 202:     }\A 203:   }\A 204: }\A 205: \A 206: #section-contact-us{\A 207:   background-color: #EDF5FA;\A 208: \A 209:   .contact {"; }
