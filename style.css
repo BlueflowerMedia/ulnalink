@@ -1,31 +1,21 @@
 /*
-Error: Invalid CSS after "...-color: #EDF5FA": expected "{", was ";"
-        on line 139 of sass/pages/_homepage.scss
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 240 of sass/pages/_homepage.scss
         from line 33 of sass/style.scss
 
-134:   vertical-align: middle;
-135: }
-136: 
-137: #section-description{
-138: <<<<<<< HEAD
-139:     background-color: #EDF5FA;
-140:     margin: 0;
-141:     padding: 0;
-142:       #img1 {
-143:         width: 60%;
-144:         height: auto;
+235:     p {
+236:       color: #1A648D;
+237:     }
+238:   }
+239: }
 
 Backtrace:
-sass/pages/_homepage.scss:139
+sass/pages/_homepage.scss:240
 sass/style.scss:33
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:677:in `block'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:686:in `block_contents'
-C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:679:in `block'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
@@ -76,4 +66,4 @@ C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/inter
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...-color: #EDF5FA\": expected \"{\", was \";\"\A         on line 139 of sass/pages/_homepage.scss\A         from line 33 of sass/style.scss\A \A 134:   vertical-align: middle;\A 135: }\A 136: \A 137: #section-description{\A 138: <<<<<<< HEAD\A 139:     background-color: #EDF5FA;\A 140:     margin: 0;\A 141:     padding: 0;\A 142:       #img1 {\A 143:         width: 60%;\A 144:         height: auto;"; }
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 240 of sass/pages/_homepage.scss\A         from line 33 of sass/style.scss\A \A 235:     p {\A 236:       color: #1A648D;\A 237:     }\A 238:   }\A 239: }"; }
