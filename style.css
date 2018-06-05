@@ -1383,7 +1383,7 @@ div.flex-column {
 #section-header {
   background-color: #06668F;
   font-size: 300%;
-  padding-left: 50px;
+  padding-left: 70px;
   padding-top: 20px;
   font-family: 'Roboto', sans-serif;
   color: white; }
@@ -1402,7 +1402,8 @@ div.flex-column {
     height: auto;
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding-left: 50px; }
+    padding-left: 70px;
+    font-size: 3vw; }
     #section-desc #rcorner p {
       color: white;
       font-family: 'Roboto', sans-serif; }
@@ -1463,7 +1464,9 @@ div.flex-column {
   padding: 0; }
 
 #section-description {
-  background-color: #EDF5FA; }
+  background-color: #EDF5FA;
+  margin: 0;
+  padding: 0; }
   #section-description #img1 {
     width: 60%;
     height: auto;
@@ -1484,7 +1487,7 @@ div.flex-column {
       text-align: center;
       padding-top: 50px;
       position: relative;
-      bottom: 40px; }
+      bottom: 60px; }
       #section-description .text-description #rcorner1 p {
         color: white;
         font-family: 'Roboto', sans-serif;
@@ -1496,8 +1499,25 @@ div.flex-column {
   text-align: center; }
   #section-sign-up h1 {
     color: white;
+    padding: 50px;
     margin: 0;
-    font-size: 40px; }
+    font-size: 48px; }
+  #section-sign-up #pic-employer {
+    width: 55%;
+    height: auto; }
+  #section-sign-up #pic-job-seeker {
+    width: 55%;
+    height: auto; }
+  #section-sign-up h2 {
+    color: white;
+    font-size: 30px; }
 
 #section-contact-us {
   background-color: #EDF5FA; }
+  #section-contact-us .contact {
+    padding-left: 150px; }
+    #section-contact-us .contact h2 {
+      font-size: 80px;
+      color: #1A648D; }
+    #section-contact-us .contact p {
+      color: #1A648D; }

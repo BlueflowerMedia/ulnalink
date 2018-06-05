@@ -2,7 +2,7 @@
 #section-header {
  background-color: #06668F;
  font-size: 300%;
- padding-left: 50px;
+ padding-left: 70px;
  padding-top: 20px;
  font-family: 'Roboto', sans-serif;
  color: white;
@@ -26,7 +26,8 @@
     height: auto;
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding-left: 50px;
+    padding-left: 70px;
+    font-size: 3vw;
 
     p{
       color: white;
@@ -111,54 +112,85 @@ p{
 
 #section-description{
     background-color: #EDF5FA;
-  #img1 {
-    width: 60%;
-    height: auto;
-    display: block;
-    margin-left: 20%;
-    margin-right: auto;
-  }
-
-.text-description{
-  padding-left: 20px;
-  padding-right: 20px;
-
-
-  #rcorner1 {
-    border-radius: 500px 500px 0px 0px;
-     background: linear-gradient(to bottom,#639442,#1A648D);
-    padding: 20px;
     margin: 0;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 50px;
-    text-align: center;
-    padding-top: 50px;
-    position: relative;
-    bottom: 40px;
+    padding: 0;
+      #img1 {
+        width: 60%;
+        height: auto;
+        display: block;
+        margin-left: 20%;
+        margin-right: auto;
+      }
 
-    p{
-      color: white;
-      font-family: 'Roboto', sans-serif;
-      padding-left: 24%;
-      padding-right: 24%;
+    .text-description{
+      padding-left: 20px;
+      padding-right: 20px;
+
+
+      #rcorner1 {
+        border-radius: 500px 500px 0px 0px;
+        background: linear-gradient(to bottom,#639442,#1A648D);
+        padding: 20px;
+        margin: 0;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 50px;
+        text-align: center;
+        padding-top: 50px;
+        position: relative;
+        bottom: 60px;
+
+      p{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 24%;
+        padding-right: 24%;
+        }
       }
     }
   }
-}
 
 #section-sign-up{
   background-color: #66953E;
   text-align: center;
 
 
-  h1 {
-    color: white;
-    margin: 0;
-    font-size: 40px;
+    h1 {
+      color: white;
+      padding: 50px;
+      margin: 0;
+      font-size: 48px;
+    }
+
+    #pic-employer {
+      width: 55%;
+      height: auto;
+    }
+
+    #pic-job-seeker {
+      width: 55%;
+      height: auto;
+    }
+
+    h2 {
+      color: white;
+      font-size: 30px;
+    }
   }
-}
 
 #section-contact-us{
   background-color: #EDF5FA;
+
+  .contact {
+    padding-left: 150px;
+
+    h2 {
+      font-size: 80px;
+      color: #1A648D;
+    }
+
+    p {
+      color: #1A648D;
+    }
+  }
 }
