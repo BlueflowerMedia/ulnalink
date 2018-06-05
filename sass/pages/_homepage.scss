@@ -45,56 +45,84 @@
 
 .blank-space{
   background-color: #06668F;
-height:150px;
+height:10vw;
+}
+
+.banner{
+  background-color: #EEF5FB;
+
 }
 
 #box {
   position: relative;
-  border-radius: 0px 80px;
+  border-radius: 0 38%;
   background: #67973f;
-  width: 180px;
-  height: 180px;
+  width: 15vw;
+  height: 15vw;
   display:inline-block;
   color: white;
-  line-height: 180px;
+  line-height: 15vw;
   text-align: center;
-  font-size: 40px;
+  font-size: 3vw;
 margin:0 20px 0 0;
   &:after {
     content: "";
-    @include position(absolute, $top: 5px, $left: 5px);
-    border-radius: 0px 77px;
+    @include position(absolute, $top: 3%, $left: 3%);
+    border-radius: 0px 38%;
     border: 2px solid white;
-    width: 170px;
-    height: 170px;
+    width: 14vw;
+    height:14vw;
   }
 }
 
 #box-white{
-  width: 180px;
-  height: 180px;
+  width: 15vw;
+  height: 15vw;
   background: transparent;
   margin:0;
 }
 
-p{
-  // color: white;
-}
+
 .triangle {
 	width: 0;
 	height: 0;
-	border-bottom: 540px solid white;
-	border-right: 540px solid transparent;
+	border-bottom: 45vw solid #EEF5FB;
+	border-right: 45vw solid transparent;
   position: absolute;
   top: 0;
   left: 0;
 
 }
 
-
-#bottom{
-  background-color:#67973f;
+div.list-left{
+  display: flex;
 }
+@media screen and (max-width: 600px){
+  div.triangle{
+    display:none;
+  }
+  #box-white{
+    display:none;
+  }
+}
+
+
+.container flex-row{
+  color: white;
+}
+
+#top{
+    font-size: 2.2vw;
+    color: white;
+    margin-top: 1vw;
+}
+#bottom{
+  font-size: 1.7vw;
+  background-color:#67973f;
+  color: white;
+  background-position: center;
+}
+
 
 .banner{
   background-color: #06668F;
@@ -103,14 +131,11 @@ p{
 
 .container{
   padding:0;
-
-  p{
-    // color: white;
-  }
-
+  vertical-align: middle;
 }
 
 #section-description{
+<<<<<<< HEAD
     background-color: #EDF5FA;
     margin: 0;
     padding: 0;
@@ -147,11 +172,31 @@ p{
         padding-right: 24%;
         }
       }
+=======
+#rcorner1 {
+  border-radius: 500px 500px 0px 0px;
+  background: #397A70;
+  padding: 20px;
+  // max-width: 80%;
+  // height: auto;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 50px;
+
+  p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 24%;
+    padding-right: 24%;
+>>>>>>> 48d6930e4d196ace8a5d055aab0ecbd1d9858ce1
     }
   }
 
 #section-sign-up{
   background-color: #66953E;
+<<<<<<< HEAD
   text-align: center;
 
 
@@ -177,6 +222,9 @@ p{
       font-size: 30px;
     }
   }
+=======
+}
+>>>>>>> 48d6930e4d196ace8a5d055aab0ecbd1d9858ce1
 
 #section-contact-us{
   background-color: #EDF5FA;
