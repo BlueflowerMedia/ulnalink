@@ -106,6 +106,7 @@
   </div>
 </section>
 
+
 <!-- signup section -->
 <section id="section-sign-up">
   <h1>Sign Up Today!</h1>
