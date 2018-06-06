@@ -1,4 +1,6 @@
 
+
+
 #section-header {
  background-color: #06668F;
  font-size: 300%;
@@ -43,14 +45,15 @@
 
 }
 
-.blank-space{
+.blank-space-1{
   background-color: #06668F;
-height:10vw;
+  height:10vw;
 }
+
+
 
 .banner{
   background-color: #EEF5FB;
-
 }
 
 #box {
@@ -80,9 +83,82 @@ margin:0 20px 0 0;
   height: 15vw;
   background: transparent;
   margin:0;
+
 }
 
+#tree1{
+  position: absolute;
+  top: 25vw;
+  left: 11vw;
+  width: 2%;
+  height: auto;
+}
 
+#tree2{
+  position: absolute;
+  top: 35vw;
+  left: 4vw;
+  width: 3%;
+  height: auto;
+}
+
+#tree3{
+  position: absolute;
+  top: 32vw;
+  left: 7vw;
+  width: 2%;
+  height: auto;
+}
+
+#tree4{
+  position: absolute;
+  top: 33vw;
+  left: 20vw;
+  width: 4%;
+  height: auto;
+}
+.blank-space-2{
+  background-color: #EEF5FB;
+  height:18vw;
+  position:relative;
+}
+#tree5{
+  position: absolute;
+  top: -20px;
+  left: 18vw;
+  width: 3%;
+  height: auto;
+}
+
+#tree6{
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+  width: 5%;
+  height: auto;
+}
+
+#tree7{
+  position: absolute;
+  top: 12vw;
+  left: 14vw;
+  width: 3.3%;
+  height: auto;
+}
+
+#tree8{
+  position: absolute;
+  top: 9vw;
+  left: 28vw;
+  width: 2.5%;
+  height: auto;
+}
+@media screen and (max-width: 600px){
+
+  #tree5{
+    display: none;
+  }
+}
 .triangle {
 	width: 0;
 	height: 0;
@@ -94,15 +170,16 @@ margin:0 20px 0 0;
 
 }
 
-div.list-left{
-  display: flex;
-}
+
 @media screen and (max-width: 600px){
   div.triangle{
     display:none;
   }
   #box-white{
     display:none;
+  }
+  #tree1,#tree2,#tree3,#tree4{
+    display: none;
   }
 }
 
@@ -111,16 +188,18 @@ div.list-left{
   color: white;
 }
 
-#top{
+p#top{
     font-size: 2.2vw;
     color: white;
-    margin-top: 1vw;
+    margin-top: 5vw;
+    margin-bottom: .5vw;
 }
 #bottom{
   font-size: 1.7vw;
   background-color:#67973f;
   color: white;
   background-position: center;
+  margin-top: 0vw;
 }
 
 
@@ -201,7 +280,10 @@ div.list-left{
       font-size: 30px;
     }
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b339851b23cf15982caaa27a518d018848680f21
 
 #section-contact-us{
   background-color: #EDF5FA;

@@ -22,8 +22,8 @@
 </section>
 
 <!-- Blank space between header and banner-->
-<section class="blank-space">
-  <div class="blank-space">
+<section>
+  <div class="blank-space-1">
 
   </div>
 </section>
@@ -31,15 +31,13 @@
 <!--banner-->
 <section class="banner">
 
-  <div class="triangle">
-
-  </div>
+  <div class="triangle"></div>
   <div class="container flex-row">
     <div class="list-left flex">
       <p id="box">1</p>
     </div>
     <div id="1" class="list-right flex">
-      <p>Search around the world with advanced filters.</p>
+      <p id="top" >Search around the world with advanced filters.</p>
       <p id="bottom">This is a uesful tool to work with, it will help assist finding better offers.</p>
     </div>
   </div>
@@ -48,33 +46,50 @@
 
     <div class="list-left flex">
       <p id="box-white"></p>
+      <img id="tree1" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+
     </div>
     <div class="list-left flex">
       <p id="box">2</p>
+
     </div>
-
-
     <div id="2" class="list-right flex">
-      <p>Auto share careers through social media.<p>
+      <p id="top">Auto share careers through social media.<p>
       <p id="bottom">Selected your profrssion? Great, create connection on this niche website.</p>
     </div>
   </div>
-
   <div class="container flex-row">
     <div class="list-left flex">
       <p id="box-white"></p>
+      <img id="tree2" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+
     </div>
     <div class="list-left flex">
       <p id="box-white"></p>
+      <img id="tree3" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+      <img id="tree4" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+
     </div>
 
     <div class="list-left flex">
       <p id="box">3</p>
     </div>
     <div  id="3" class="list-right flex">
-      <p>Free!</p>
+      <p id="top">Free!</p>
       <p id="bottom">This site will offer free service to those who need to find work.</p>
     </div>
+  </div>
+</section>
+
+<!-- Blank space between banner and description-->
+<section>
+  <div class="blank-space-2">
+    <img id="tree5" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img id="tree6" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+    <img id="tree7" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+    <img id="tree8" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+
+
   </div>
 </section>
 
@@ -90,6 +105,7 @@
     </h2>
   </div>
 </section>
+
 
 <!-- signup section -->
 <section id="section-sign-up">
