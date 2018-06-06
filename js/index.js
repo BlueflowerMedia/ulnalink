@@ -1,12 +1,17 @@
-var path = window.location.pathname;
-var page = path.split("/")
-var pageName = page[page.length - 2];
-
-
-if (pageName == "blueflowermedia") {
-  runParticles();
-  runCarousel();
-  runRellax();
-} else if (pageName == "team") {
-  teamImagePlayer();
+function treePop() {
+	$(".tree").each(function() {
+		var ourTree = $(this);
+		var treeHeight = $(this).offset().top + $(this).height();
+		var windowHeight = $(window).height();
+		$(document).scroll(function() {
+			var scrolled = $(window).scrollTop() + windowHeight-200;
+			//console.log(treeHeight, scrolled)
+			if (treeHeight < scrolled) {
+				//console.log("now!");
+				ourTree.addClass("treeReveal");
+			}
+		})
+	})
 }
+
+treePop();
