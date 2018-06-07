@@ -106,7 +106,7 @@
     <img id="img1" src="<?php echo get_template_directory_uri(); ?>/images/ulna-hospital.svg" alt="">
   </div>
 <div class="text-description">
-    <h2 id="rcorner1">We specilize in Medical.
+    <h2 id="rcorner1">We specialize in Medical.
       <p>This  site is  dedicated  to  one  niche  in  particular:<br>Medical  field.  It  can  be  anyone  starting  from  Personal  Support  Worker  (PSW)who  just  finished  their  placement  and  obtained  certeficate,  and  ending  up  withRegistered  Nurses  (RN),  Doctors  e.t.c...  As  a  client,  all  your  job  is  to  follow  job  listing  news  and  information  board  for  monthly  updates,  once  registered.  If  you  are  employeryour  task  is  to  upload  work  order  and  wait  for  responce.</p>
     </h2>
   </div>
@@ -133,6 +133,20 @@
         </div>
       </div>
     </div>
+</section>
+
+<!-- Blank space between signup and contact-->
+<section>
+  <div class="blank-space-3">
+    <img class="tree" id="tree17" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree18" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+    <img class="tree" id="tree19" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree20" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree21" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree22" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree23" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree24" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree25" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
 </section>
 
 <!-- Contact Section -->
