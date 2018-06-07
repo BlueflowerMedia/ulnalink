@@ -3,9 +3,15 @@
 <!-- section header -->
 
 <section id="section-header">
-  <div class="companylogo flex1">
-    <img id="img-logo" src="<?php echo get_template_directory_uri(); ?>/images/ulnalink-logo.JPG" alt="">ULNA LINK
+  <div class="flex-row">
+    <div class="flex-column">
+      <img id="img-logo" src="<?php echo get_template_directory_uri(); ?>/images/ulnalink-logo.JPG" alt="ULNA LINK logo">
+    </div>
+    <div class="flex-column" id="logo-text">
+      ULNA LINK
+    </div>
   </div>
+
 </section>
 
 <!-- section description -->
@@ -54,8 +60,8 @@
 
     </div>
     <div id="2" class="list-right flex">
-      <p id="top">Auto share careers through social media.<p>
-      <p id="bottom">Selected your profrssion? Great, create connection on this niche website.</p>
+      <p id="top">Auto share careers through social media.</p>
+      <p id="bottom">Selected your profession? Great, create connection on this niche website.</p>
     </div>
   </div>
   <div class="container flex-row">
