@@ -1,22 +1,22 @@
 /*
 Error: Invalid CSS after "...n-bottom: -60px": expected "{", was ";"
-        on line 293 of sass/pages/_homepage.scss
+        on line 396 of sass/pages/_homepage.scss
         from line 33 of sass/style.scss
 
-288:         height: auto;
-289:         display: block;
-290:         margin-left: 20%;
-291:         margin-right: auto;
-292: <<<<<<< HEAD
-293:         margin-bottom: -60px;
-294: =======
-295:         margin-bottom: -32px;
-296:         z-index: 99999;
-297: >>>>>>> 69870f0d865fb3d3e9d906ff837f739e6f46cdac
-298:       }
+391:         height: auto;
+392:         display: block;
+393:         margin-left: 20%;
+394:         margin-right: auto;
+395: <<<<<<< HEAD
+396:         margin-bottom: -60px;
+397: =======
+398:         margin-bottom: -47px;
+399:         z-index: 99999;
+400: >>>>>>> ec91f7741729a1d6f147b781592afef252f541e8
+401:       }
 
 Backtrace:
-sass/pages/_homepage.scss:293
+sass/pages/_homepage.scss:396
 sass/style.scss:33
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
@@ -80,4 +80,4 @@ C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/inter
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...n-bottom: -60px\": expected \"{\", was \";\"\A         on line 293 of sass/pages/_homepage.scss\A         from line 33 of sass/style.scss\A \A 288:         height: auto;\A 289:         display: block;\A 290:         margin-left: 20%;\A 291:         margin-right: auto;\A 292: <<<<<<< HEAD\A 293:         margin-bottom: -60px;\A 294: =======\A 295:         margin-bottom: -32px;\A 296:         z-index: 99999;\A 297: >>>>>>> 69870f0d865fb3d3e9d906ff837f739e6f46cdac\A 298:       }"; }
+  content: "Error: Invalid CSS after \"...n-bottom: -60px\": expected \"{\", was \";\"\A         on line 396 of sass/pages/_homepage.scss\A         from line 33 of sass/style.scss\A \A 391:         height: auto;\A 392:         display: block;\A 393:         margin-left: 20%;\A 394:         margin-right: auto;\A 395: <<<<<<< HEAD\A 396:         margin-bottom: -60px;\A 397: =======\A 398:         margin-bottom: -47px;\A 399:         z-index: 99999;\A 400: >>>>>>> ec91f7741729a1d6f147b781592afef252f541e8\A 401:       }"; }
