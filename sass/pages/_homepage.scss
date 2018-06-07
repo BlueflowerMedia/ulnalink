@@ -1,6 +1,4 @@
 
-
-
 #section-header {
  background-color: #06668F;
  font-size: 300%;
@@ -86,36 +84,52 @@ margin:0 20px 0 0;
 
 }
 
-#tree1{
+
+#tree{
   position: absolute;
+  height: auto;
+  transform: translateY(60px);
+  opacity: 0;
+  transition: opacity 1s linear;
+  &.treeReveal {
+   opacity: 1;
+   transition: all .5s cubic-bezier(0,1.17,.63,1.44) ;
+   transform: translateY(0px) scale(1.1);
+ }
+}
+
+#tree:hover{
+  transform: translateY(-20px) scale(1.1);
+  opacity:1;
+}
+
+#tree1{
+  @extend #tree;
   top: 25vw;
   left: 11vw;
   width: 2%;
-  height: auto;
 }
 
 #tree2{
-  position: absolute;
+  @extend #tree;
   top: 35vw;
   left: 4vw;
   width: 3%;
-  height: auto;
+
 }
 
 #tree3{
-  position: absolute;
+  @extend #tree;
   top: 32vw;
   left: 7vw;
   width: 2%;
-  height: auto;
 }
 
 #tree4{
-  position: absolute;
+  @extend #tree;
   top: 33vw;
   left: 20vw;
   width: 4%;
-  height: auto;
 }
 .blank-space-2{
   background-color: #EEF5FB;
@@ -123,35 +137,86 @@ margin:0 20px 0 0;
   position:relative;
 }
 #tree5{
-  position: absolute;
+  @extend #tree;
   top: -20px;
   left: 18vw;
   width: 3%;
-  height: auto;
 }
 
 #tree6{
-  position: absolute;
+  @extend #tree;
   top: 1vw;
   left: 2vw;
-  width: 5%;
-  height: auto;
+  width: 4%;
 }
 
 #tree7{
-  position: absolute;
+  @extend #tree;
   top: 12vw;
   left: 14vw;
   width: 3.3%;
-  height: auto;
 }
 
 #tree8{
-  position: absolute;
+  @extend #tree;
   top: 9vw;
-  left: 28vw;
+  left: 31vw;
   width: 2.5%;
-  height: auto;
+}
+
+#tree9{
+  @extend #tree;
+  top: 17vw;
+  left: 25vw;
+  width: 2.5%;
+}
+
+#tree10{
+  @extend #tree;
+  top: 19vw;
+  left: 7vw;
+  width: 2.5%;
+}
+
+#tree11{
+  @extend #tree;
+  top: 22vw;
+  left: 1vw;
+  width: 2.5%;
+}
+
+
+#tree12{
+  @extend #tree;
+  top: 25vw;
+  left: 10vw;
+  width: 2.5%;
+}
+
+#tree13{
+  @extend #tree;
+  top: 16vw;
+  left: 90vw;
+  width: 2.5%;
+}
+
+#tree14{
+  @extend #tree;
+  top: 18vw;
+  left: 70vw;
+  width: 2.5%;
+}
+#tree15{
+  @extend #tree;
+  top: 26vw;
+  left: 80vw;
+  width: 2.5%;
+}
+#tree16{
+  @extend #tree;
+  top: 28vw;
+  left: 95vw;
+  width: 2.5%;
 }
 @media screen and (max-width: 600px){
 
@@ -159,6 +224,7 @@ margin:0 20px 0 0;
     display: none;
   }
 }
+
 .triangle {
 	width: 0;
 	height: 0;
@@ -218,12 +284,17 @@ p#top{
     margin: 0;
     padding: 0;
       #img1 {
-        width: 60%;
+        width: 50%;
         height: auto;
         display: block;
         margin-left: 20%;
         margin-right: auto;
+<<<<<<< HEAD
         margin-bottom: -60px;
+=======
+        margin-bottom: -32px;
+        z-index: 99999;
+>>>>>>> 69870f0d865fb3d3e9d906ff837f739e6f46cdac
       }
 
     .text-description{
@@ -238,11 +309,17 @@ p#top{
         margin: 0;
         color: white;
         font-family: 'Roboto', sans-serif;
-        padding-left: 50px;
+
         text-align: center;
+        padding-left: 50px;
         padding-top: 50px;
+<<<<<<< HEAD
         position: relative;
         // bottom: 60px;
+=======
+        z-index: -9999;
+
+>>>>>>> 69870f0d865fb3d3e9d906ff837f739e6f46cdac
 
       p{
         color: white;

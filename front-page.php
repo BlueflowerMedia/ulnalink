@@ -46,7 +46,7 @@
 
     <div class="list-left flex">
       <p id="box-white"></p>
-      <img id="tree1" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+      <img class="tree" id="tree1" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
 
     </div>
     <div class="list-left flex">
@@ -61,13 +61,13 @@
   <div class="container flex-row">
     <div class="list-left flex">
       <p id="box-white"></p>
-      <img id="tree2" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+      <img class="tree"  id="tree2" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
 
     </div>
     <div class="list-left flex">
       <p id="box-white"></p>
-      <img id="tree3" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
-      <img id="tree4" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+      <img class="tree" id="tree3" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+      <img class="tree" id="tree4" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
 
     </div>
 
@@ -84,12 +84,18 @@
 <!-- Blank space between banner and description-->
 <section>
   <div class="blank-space-2">
-    <img id="tree5" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
-    <img id="tree6" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
-    <img id="tree7" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
-    <img id="tree8" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
-
-
+    <img class="tree" id="tree5" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree6" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+    <img class="tree" id="tree7" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+    <img class="tree" id="tree8" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+    <img class="tree" id="tree9" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree10" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+    <img class="tree" id="tree11" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree12" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree13" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree14" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
+    <img class="tree" id="tree15" src="<?php echo get_template_directory_uri(); ?>/images/ulna-light-green-tree.png" alt="">
+    <img class="tree" id="tree16" src="<?php echo get_template_directory_uri(); ?>/images/ulna-dark-green-tree.png" alt="">
   </div>
 </section>
 
