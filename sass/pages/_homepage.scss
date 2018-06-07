@@ -223,6 +223,7 @@ p#top{
         display: block;
         margin-left: 20%;
         margin-right: auto;
+        margin-bottom: -60px;
       }
 
     .text-description{
@@ -241,7 +242,7 @@ p#top{
         text-align: center;
         padding-top: 50px;
         position: relative;
-        bottom: 60px;
+        // bottom: 60px;
 
       p{
         color: white;
@@ -257,47 +258,86 @@ p#top{
   background-color: #66953E;
   text-align: center;
 
+  .employer {
+    padding-bottom: 6vw;
+  }
 
-    h1 {
+    .wpcf7-form-control{
+      color: #1A648D;
+      line-height: 3vw;
+      padding-left: 10px;
+      font-size: 1.7vw;
+      width: 50%;
+    }
+
+  h1 {
       color: white;
-      padding: 50px;
+      padding: 3vw;
       margin: 0;
-      font-size: 48px;
+      font-size: 4vw;
     }
 
     #pic-employer {
-      width: 55%;
+      width: 50%;
       height: auto;
     }
 
     #pic-job-seeker {
-      width: 55%;
+      width: 50%;
       height: auto;
     }
 
     h2 {
       color: white;
-      font-size: 30px;
+      font-size: 2.5vw;
+      margin-bottom: 2vw;
     }
-  }
-<<<<<<< HEAD
 
-=======
->>>>>>> b339851b23cf15982caaa27a518d018848680f21
+    .wpcf7-submit {
+         background-color: #1A648D;
+         color: white;
+         font-size: 1.5rem;
+         border-color: #1A648D;
+         // padding-left: 1.5vw;
+         width: 25%;
+       }
+  }
+
 
 #section-contact-us{
   background-color: #EDF5FA;
 
+  .wpcf7-form-control{
+    color: #1A648D;
+    line-height: 3vw;
+    padding-left: 10px;
+    font-size: 1.7vw;
+  }
+
   .contact {
-    padding-left: 150px;
+    padding-left: 11vw;;
 
     h2 {
-      font-size: 80px;
+      font-size: 5vw;
       color: #1A648D;
     }
 
     p {
       color: #1A648D;
+      font-size: 1.5vw;
+        line-height:1.5;
     }
   }
+
+  select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required{
+    width: 86%;
+    height: 3.5vw;
+  }
+
+  .wpcf7-submit {
+       background-color: #1A648D;
+       color: white;
+       font-size: 1.5rem;
+       width: 25%;
+     }
 }
