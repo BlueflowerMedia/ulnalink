@@ -2,14 +2,29 @@
     background-color: #1B648D;
     text-align: center;
     color: white;
+
+    #img-logo{
+      margin-top: 20px;
+      height: 60px;
+      width:50px;
+    }
+
+    div.flex-column{
+    line-height: 90px;
+    font-size: 2.5vw;
+    align-items: center;
+    padding: 1vw;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    p {
+      font-size: 1vw;
+    }
   }
 
 
-#img-logo{
-  margin-top: 20px;
-  height: 60px;
-  width:50px;
-}
+
+
 
 
 // .flex-row{
@@ -18,9 +33,3 @@
 // justify-content:center;
 // vertical-align: middle;
 // }
-
-
-div.flex-column{
-line-height: 90px;
-font-size: 20px;
-}

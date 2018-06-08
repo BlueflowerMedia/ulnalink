@@ -1,7 +1,19 @@
 /*
+<<<<<<< HEAD
 Error: Invalid CSS after "  }": expected selector or at-rule, was "}"
         on line 204 of sass/pages/_homepage.scss
         from line 33 of sass/style.scss
+=======
+Error: File to import not found or unreadable: pages/homepage.
+        on line 33 of sass/style.scss
+
+28: @import "base/fonts";
+29: @import "base/grid";
+30: @import "base/buttons";
+31: @import "modules/navbar";
+32: @import "modules/footer";
+33: @import "pages/homepage";
+>>>>>>> 3dfdaec5e95c76a1d84f99fde20d621b290707b4
 
 199:     h2 {
 200:       color: white;
@@ -16,6 +28,7 @@ Error: Invalid CSS after "  }": expected selector or at-rule, was "}"
 209:   .contact {
 
 Backtrace:
+<<<<<<< HEAD
 sass/pages/_homepage.scss:204
 sass/style.scss:33
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
@@ -28,6 +41,14 @@ C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `blo
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+=======
+sass/style.scss:33
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:44:in `import'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+>>>>>>> 3dfdaec5e95c76a1d84f99fde20d621b290707b4
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
@@ -66,4 +87,8 @@ C:/tools/ruby25/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/inter
 body:before {
   white-space: pre;
   font-family: monospace;
+<<<<<<< HEAD
   content: "Error: Invalid CSS after \"  }\": expected selector or at-rule, was \"}\"\A         on line 204 of sass/pages/_homepage.scss\A         from line 33 of sass/style.scss\A \A 199:     h2 {\A 200:       color: white;\A 201:       font-size: 30px;\A 202:     }\A 203:   }\A 204: }\A 205: \A 206: #section-contact-us{\A 207:   background-color: #EDF5FA;\A 208: \A 209:   .contact {"; }
+=======
+  content: "Error: File to import not found or unreadable: pages/homepage.\A         on line 33 of sass/style.scss\A \A 28: @import \"base/fonts\";\A 29: @import \"base/grid\";\A 30: @import \"base/buttons\";\A 31: @import \"modules/navbar\";\A 32: @import \"modules/footer\";\A 33: @import \"pages/homepage\";"; }
+>>>>>>> 3dfdaec5e95c76a1d84f99fde20d621b290707b4
